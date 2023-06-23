@@ -1,1 +1,0 @@
-package com.allcodesnick.LocalJavaEnvironment.designpatterns.PROTOTYPE;
