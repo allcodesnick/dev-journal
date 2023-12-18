@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="80eba94e-39a6-477b-8f49-57559803bae1" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LocalJavaEnvironment/src/main/java/com/allcodesnick/LocalJavaEnvironment/automatedscripts/ResumeBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/LocalJavaEnvironment/src/main/java/com/allcodesnick/LocalJavaEnvironment/automatedscripts/ResumeBuilder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,27 +23,27 @@
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 0
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2ZgQoueDMiiuq91oDZFUrg8Tn5g" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Application.LocalJavaEnvironmentApplication.executor": "Run",
-    "Application.ResumeBuilder.executor": "Run",
-    "JUnit.LocalJavaEnvironmentApplicationTests.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "kotlin-language-version-configured": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Application.LocalJavaEnvironmentApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ResumeBuilder.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.LocalJavaEnvironmentApplicationTests.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="JUnit.LocalJavaEnvironmentApplicationTests">
     <configuration name="LocalJavaEnvironmentApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.allcodesnick.LocalJavaEnvironment.LocalJavaEnvironmentApplication" />
