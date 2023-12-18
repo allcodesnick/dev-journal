@@ -1,4 +1,4 @@
-package com.allcodesnick.den.automatedscripts;
+package com.allcodesnick.den.helper;
 
 public class ResumeBuilder {
     public static void main(String[] args) {
