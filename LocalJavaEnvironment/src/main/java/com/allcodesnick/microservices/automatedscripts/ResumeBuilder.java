@@ -1,4 +1,4 @@
-package com.allcodesnick.LocalJavaEnvironment.automatedscripts;
+package com.allcodesnick.microservices.automatedscripts;
 
 public class ResumeBuilder {
     public static void main(String[] args) {
