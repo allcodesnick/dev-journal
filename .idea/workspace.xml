@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="80eba94e-39a6-477b-8f49-57559803bae1" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LocalJavaEnvironment/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/LocalJavaEnvironment/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LocalJavaEnvironment/src/main/java/com/allcodesnick/LocalJavaEnvironment/LocalJavaEnvironmentApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/LocalJavaEnvironment/src/main/java/com/allcodesnick/microservices/LocalJavaEnvironmentApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LocalJavaEnvironment/src/main/java/com/allcodesnick/LocalJavaEnvironment/automatedscripts/ResumeBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/LocalJavaEnvironment/src/main/java/com/allcodesnick/microservices/automatedscripts/ResumeBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LocalJavaEnvironment/src/test/java/com/allcodesnick/LocalJavaEnvironment/LocalJavaEnvironmentApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/LocalJavaEnvironment/src/test/java/com/allcodesnick/microservices/LocalJavaEnvironmentApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LocalJavaEnvironment/src/main/java/com/allcodesnick/microservices/LocalJavaEnvironmentApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/LocalJavaEnvironment/src/main/java/com/allcodesnick/den/AllCodesNickApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LocalJavaEnvironment/src/main/java/com/allcodesnick/microservices/automatedscripts/ResumeBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/LocalJavaEnvironment/src/main/java/com/allcodesnick/den/automatedscripts/ResumeBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LocalJavaEnvironment/src/test/java/com/allcodesnick/microservices/LocalJavaEnvironmentApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/LocalJavaEnvironment/src/test/java/com/allcodesnick/den/AllCodesNickApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +36,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Application.AllCodesNickApplication.executor": "Run",
     "Application.LocalJavaEnvironmentApplication.executor": "Run",
     "Application.ResumeBuilder.executor": "Run",
     "JUnit.LocalJavaEnvironmentApplicationTests.executor": "Run",
@@ -50,13 +49,13 @@
     "project.structure.side.proportion": "0.2"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.LocalJavaEnvironmentApplication">
-    <configuration name="LocalJavaEnvironmentApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.allcodesnick.microservices.LocalJavaEnvironmentApplication" />
+  <component name="RunManager" selected="Application.AllCodesNickApplication">
+    <configuration name="AllCodesNickApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.allcodesnick.den.AllCodesNickApplication" />
       <module name="sys-anonymous" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.allcodesnick.microservices.*" />
+          <option name="PATTERN" value="com.allcodesnick.den.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -65,11 +64,11 @@
       </method>
     </configuration>
     <configuration name="ResumeBuilder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.allcodesnick.microservices.automatedscripts.ResumeBuilder" />
+      <option name="MAIN_CLASS_NAME" value="com.allcodesnick.den.automatedscripts.ResumeBuilder" />
       <module name="sys-anonymous" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.allcodesnick.microservices.automatedscripts.*" />
+          <option name="PATTERN" value="com.allcodesnick.den.automatedscripts.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -77,16 +76,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LocalJavaEnvironmentApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AllCodesNickApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="sys-anonymous" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.allcodesnick.microservices.*" />
+          <option name="PATTERN" value="com.allcodesnick.den.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.allcodesnick.LocalJavaEnvironment" />
-      <option name="MAIN_CLASS_NAME" value="com.allcodesnick.microservices.LocalJavaEnvironmentApplicationTests" />
+      <option name="PACKAGE_NAME" value="com.allcodesnick.den" />
+      <option name="MAIN_CLASS_NAME" value="com.allcodesnick.den.AllCodesNickApplicationTests" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -94,8 +93,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LocalJavaEnvironmentApplication" />
-        <item itemvalue="JUnit.LocalJavaEnvironmentApplicationTests" />
+        <item itemvalue="Application.AllCodesNickApplication" />
+        <item itemvalue="JUnit.AllCodesNickApplicationTests" />
         <item itemvalue="Application.ResumeBuilder" />
       </list>
     </recent_temporary>
@@ -117,6 +116,14 @@
       <updated>1702841421949</updated>
     </task>
     <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="dependencySupport" implementationName="java:org.springframework:spring-core" />
+    <option featureType="dependencySupport" implementationName="java:jakarta.persistence:jakarta.persistence-api" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework.data:spring-data-commons" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework.boot:spring-boot" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework:spring-webmvc" />
+    <option featureType="dependencySupport" implementationName="java:org.projectlombok:lombok" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
