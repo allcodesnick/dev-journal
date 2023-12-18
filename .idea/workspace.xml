@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="80eba94e-39a6-477b-8f49-57559803bae1" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="80eba94e-39a6-477b-8f49-57559803bae1" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,6 +27,13 @@
     <favorite-branches>
       <branch-storage>
         <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="prd-main" />
+              </list>
+            </value>
+          </entry>
           <entry type="REMOTE">
             <value>
               <list>
@@ -87,11 +92,11 @@
       </method>
     </configuration>
     <configuration name="ResumeBuilder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.allcodesnick.den.automatedscripts.ResumeBuilder" />
+      <option name="MAIN_CLASS_NAME" value="com.allcodesnick.den.helper.ResumeBuilder" />
       <module name="sys-anonymous" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.allcodesnick.den.automatedscripts.*" />
+          <option name="PATTERN" value="com.allcodesnick.den.helper.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
