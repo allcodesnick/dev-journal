@@ -6,9 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="80eba94e-39a6-477b-8f49-57559803bae1" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LocalJavaEnvironment/src/main/java/com/allcodesnick/microservices/LocalJavaEnvironmentApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/LocalJavaEnvironment/src/main/java/com/allcodesnick/den/AllCodesNickApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LocalJavaEnvironment/src/main/java/com/allcodesnick/microservices/automatedscripts/ResumeBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/LocalJavaEnvironment/src/main/java/com/allcodesnick/den/automatedscripts/ResumeBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LocalJavaEnvironment/src/test/java/com/allcodesnick/microservices/LocalJavaEnvironmentApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/LocalJavaEnvironment/src/test/java/com/allcodesnick/den/AllCodesNickApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +13,32 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <excluded-from-favorite>
+      <branch-storage>
+        <map>
+          <entry type="REMOTE">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="origin/main" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </excluded-from-favorite>
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="REMOTE">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="origin/prd-main" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
