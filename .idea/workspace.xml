@@ -6,7 +6,16 @@
   <component name="ChangeListManager">
     <list default="true" id="80eba94e-39a6-477b-8f49-57559803bae1" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LocalJavaEnvironment/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/LocalJavaEnvironment/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LocalJavaEnvironment/src/main/java/com/allcodesnick/den/skatemaddness/configuration/SecurityConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LocalJavaEnvironment/src/main/java/com/allcodesnick/den/skatemaddness/model/ApplicationUserDetails.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LocalJavaEnvironment/src/main/java/com/allcodesnick/den/skatemaddness/model/Roles.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LocalJavaEnvironment/src/main/java/com/allcodesnick/den/skatemaddness/model/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LocalJavaEnvironment/src/main/java/com/allcodesnick/den/skatemaddness/repository/UserRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LocalJavaEnvironment/src/main/java/com/allcodesnick/den/skatemaddness/service/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LocalJavaEnvironment/src/main/java/com/allcodesnick/den/skatemaddness/service/impl/UserDetailManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LocalJavaEnvironment/src/main/java/com/allcodesnick/den/skatemaddness/service/impl/UserManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LocalJavaEnvironment/src/main/java/com/allcodesnick/den/skatemaddness/web/controller/api/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/LocalJavaEnvironment/src/main/java/com/allcodesnick/den/skatemaddness/web/controller/api/HomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LocalJavaEnvironment/src/main/java/com/allcodesnick/den/skatemaddness/web/controller/api/RegistrationController.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,12 +68,12 @@
     </favorite-branches>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "allcodesnick"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;allcodesnick&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -91,24 +100,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Application.AllCodesNickApplication.executor": "Run",
-    "Application.LocalJavaEnvironmentApplication.executor": "Run",
-    "Application.ResumeBuilder.executor": "Run",
-    "DefaultHtmlFileTemplate": "HTML File",
-    "JUnit.LocalJavaEnvironmentApplicationTests.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "kotlin-language-version-configured": "true",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Application.AllCodesNickApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LocalJavaEnvironmentApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ResumeBuilder.executor&quot;: &quot;Run&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;JUnit.LocalJavaEnvironmentApplicationTests.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\justn\Desktop\dev-journal\" />
