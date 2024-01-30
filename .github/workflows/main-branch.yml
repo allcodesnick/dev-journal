@@ -1,24 +1,19 @@
-name: Sync Changes Workflow
+name: PRD Main Workflow
+
+
+
 
 on:
   push:
     branches:
-      - 'prd-main*'
+      - 'prd-main'
 
 jobs:
-  sync-changes:
+  build:
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
 
-      - name: Sync changes
-        run: |
-          git fetch --prune
-          for branch in $(git branch -r | grep -E 'origin/prd-main.*'); do
-            local_branch=$(basename $branch)
-            git show-ref --verify --quiet "refs/heads/$local_branch" && git merge --no-ff $branch
-          done
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      # Add your release branch workflow steps here
