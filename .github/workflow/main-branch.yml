@@ -3,7 +3,7 @@ name: Main Branch Workflow
 on:
   push:
     branches:
-      - main
+      - prd-main
   pull_request:
     types:
       - closed
