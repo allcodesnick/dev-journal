@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="80eba94e-39a6-477b-8f49-57559803bae1" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LocalJavaEnvironment/src/main/java/com/allcodesnick/den/skatemaddness/exception/ResourceNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/LocalJavaEnvironment/src/main/java/com/allcodesnick/den/helper/exception/ResourceNotFoundException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LocalJavaEnvironment/src/main/java/com/allcodesnick/den/skatemaddness/web/controller/api/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/LocalJavaEnvironment/src/main/java/com/allcodesnick/den/controller/HomeController.java" afterDir="false" />
-    </list>
+    <list default="true" id="80eba94e-39a6-477b-8f49-57559803bae1" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -106,7 +100,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/justn/Desktop/dev-journal/LocalJavaEnvironment/src/main/java/com/allcodesnick/den/service",
+    "last_opened_file_path": "C:/Users/justn/Desktop/dev-journal/.github/workflow",
     "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2",
@@ -115,6 +109,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\justn\Desktop\dev-journal\.github\workflow" />
       <recent name="C:\Users\justn\Desktop\dev-journal\LocalJavaEnvironment\src\main\java\com\allcodesnick\den\service" />
       <recent name="C:\Users\justn\Desktop\dev-journal\LocalJavaEnvironment\src\main\java\com\allcodesnick\den" />
     </key>

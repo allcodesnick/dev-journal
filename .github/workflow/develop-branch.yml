@@ -1,0 +1,16 @@
+name: Develop Branch Workflow
+
+on:
+  push:
+    branches:
+      - develop
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      # Add your develop branch workflow steps here

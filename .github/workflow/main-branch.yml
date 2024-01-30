@@ -1,0 +1,26 @@
+name: Main Branch Workflow
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    types:
+      - closed
+
+jobs:
+  sync-branches:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: Sync branches
+      run: |
+        git fetch --prune
+        for branch in $(git branch -r | grep -v main); do
+          git checkout --track $branch -B $(basename $branch)
+        done
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
