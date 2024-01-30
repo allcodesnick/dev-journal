@@ -1,4 +1,4 @@
-package com.allcodesnick.den.skatemaddness.exception;
+package com.allcodesnick.den.helper.exception;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ResponseStatus;
