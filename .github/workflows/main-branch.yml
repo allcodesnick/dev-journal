@@ -1,4 +1,4 @@
-name: Main Branch Workflow
+name: Sync Branches Workflow
 
 on:
   push:
@@ -13,14 +13,15 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v3
+      - name: Checkout repository
+        uses: actions/checkout@v2
 
-    - name: Sync branches
-      run: |
-        git fetch --prune
-        for branch in $(git branch -r | grep -v main); do
-          git checkout --track $branch -B $(basename $branch)
-        done
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Sync branches
+        run: |
+          git fetch --prune
+          for branch in $(git branch -r | grep -v prd-main); do
+            local_branch=$(basename $branch)
+            git show-ref --verify --quiet "refs/heads/$local_branch" || git checkout --track $branch -B $local_branch
+          done
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
