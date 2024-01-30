@@ -1,5 +1,5 @@
 # Name of the GitHub Actions workflow
-name: Jest Testing
+name: JUnit Testing
 
 on:
   push:

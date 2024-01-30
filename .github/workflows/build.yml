@@ -24,4 +24,5 @@ jobs:
           java-version: '19'
 
       - name: Build with Maven
-        run: mvn clean install
+        run: mvn -f \dev-journal\LocalJavaEnvironment\pom.xml clean install
+
