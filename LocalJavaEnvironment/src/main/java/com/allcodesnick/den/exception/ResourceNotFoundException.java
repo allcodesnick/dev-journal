@@ -1,4 +1,4 @@
-package com.allcodesnick.den.project1.helper.exception;
+package com.allcodesnick.den.exception;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ResponseStatus;
