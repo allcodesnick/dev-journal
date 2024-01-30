@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="80eba94e-39a6-477b-8f49-57559803bae1" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.github/workflows/main-branch.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/main-branch.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +57,11 @@
         </map>
       </branch-storage>
     </favorite-branches>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="feature-v1" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{

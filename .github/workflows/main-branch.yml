@@ -3,7 +3,7 @@ name: Sync Changes Workflow
 on:
   push:
     branches:
-      - prd-main
+      - 'prd-main*'
 
 jobs:
   sync-changes:
@@ -16,6 +16,9 @@ jobs:
       - name: Sync changes
         run: |
           git fetch --prune
-          git pull origin prd-main
+          for branch in $(git branch -r | grep -E 'origin/prd-main.*'); do
+            local_branch=$(basename $branch)
+            git show-ref --verify --quiet "refs/heads/$local_branch" && git merge --no-ff $branch
+          done
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
